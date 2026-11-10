@@ -6710,6 +6710,18 @@ AHU_DFVSC_DSP_ECONM_HPZC_EFSS_ZSPM:
   - EFSS
   - ZSPM
 
+AHU_DFVSC_DSP_ECONZ_HP2ZC_EFSS:  
+  guid: "712674c2-b541-4323-aa82-e248d642624c"
+  description: "Multi zone AHU."
+  is_canonical: true
+  implements:
+  - AHU
+  - DFVSC
+  - DSP
+  - ECONM
+  - HPZC 
+  - EFSS
+  
 ###################################
 ### Existing Non-standard Types ###
 ###################################
