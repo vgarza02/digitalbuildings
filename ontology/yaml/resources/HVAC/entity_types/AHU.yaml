@@ -6675,6 +6675,28 @@ AHU_SFVSC2X_EFVSC2X_CHWSC_HWSC_ECON_BSPC2X_SARC_SSPC_MOAFC:
   - SSPC
   - MOAFC
 
+AHU_DFVSC_DSP_ECONZ_HP2ZC:
+  guid: "283528f7-a50e-496a-9c4f-9cf64efb600f"
+  description: "Multi zone AHU."
+  is_canonical: true
+  implements:
+  - AHU
+  - DFVSC
+  - DSP
+  - ECONZ
+  - HP2ZC
+
+AHU_DFVSC_DSP_ECONZ_HPZC:
+  guid: "ba860af2-beb8-45e4-8a3a-fb0af74b3126"
+  description: "Multi zone AHU."
+  is_canonical: true
+  implements:
+  - AHU
+  - DFVSC
+  - DSP
+  - ECONZ
+  - HPZC  
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################
