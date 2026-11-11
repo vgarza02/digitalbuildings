@@ -796,6 +796,18 @@ FCU_DFSS_DFMSC_DSP_DXZC:
   - DSP
   - DXZC
 
+FCU_DFSS_DFMSC_DSP_DXZC_CFSS:
+  guid: "cb5373f3-9ff1-443d-baf3-9ffbdc2a3c64"
+  description: "Multi-speed DX fan coil with zone temp control and a condensing fan."
+  is_canonical: true
+  implements:
+  - FCU
+  - DFSS
+  - DFMSC
+  - DSP
+  - DXZC
+  - CFSS
+
 FCU_DFSS_DFMSC_DSP_DXZC_DAIDC:
   guid: "60f830d2-e9e7-4703-b745-372cadaa98ba"
   description: "Multi-speed DX fan coil with zone temp control, and discharge air isolation damper control."
