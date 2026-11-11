@@ -880,6 +880,7 @@ DFVSC:
   - low_discharge_air_static_pressure_alarm
   - schedule_run_command
   - local_override_alarm
+  - user_occupancy_override_status
   uses:
   - discharge_fan_run_command
   - discharge_fan_run_status
@@ -3677,6 +3678,8 @@ HPDC:
   - failed_compressor_alarm
   - failed_discharge_air_temperature_alarm
   - overload_compressor_alarm
+  - high_discharge_air_temperature_alarm
+  - low_discharge_air_temperature_alarm
   uses:
   - compressor_run_command
   - compressor_run_status
