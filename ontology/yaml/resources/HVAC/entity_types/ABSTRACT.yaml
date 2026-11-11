@@ -10651,6 +10651,16 @@ CFVSC8X:
   - condensing_fan_speed_percentage_command_7
   - condensing_fan_speed_percentage_command_8
 
+CFSS:
+  guid: "51da47ef-89b2-4023-b160-84540d0572cb"
+  description: "Start stop control for 1 condensing fan."
+  is_abstract: true
+  uses:
+  - condensing_fan_run_command
+  - condensing_fan_run_status
+  opt_uses:
+  - condensing_heat_exchange_percentage_command
+
 CFSS2X:
   guid: "f318579a-3343-47ee-a486-c4b4572dcd34"
   description: "Start stop control for 2 condensing fans."
