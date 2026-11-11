@@ -1105,6 +1105,7 @@ DSPC:
   - failed_discharge_air_static_pressure_alarm
   - high_discharge_air_static_pressure_alarm
   - low_discharge_air_static_pressure_alarm
+  - bypass_air_damper_percentage_command
   uses:
   - discharge_air_static_pressure_sensor
   - discharge_air_static_pressure_setpoint
