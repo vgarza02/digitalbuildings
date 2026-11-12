@@ -6754,6 +6754,17 @@ AHU_DFVSC_DSPC_HPDC_OA_RTM:
   - HPDC
   - OA
   - RTM
+
+AHU_DFSS_DXZC_ECONZ_DAIDC:  
+  guid: "fefd6062-8494-41cf-8719-ad47da29c8b4"
+  description: "Multi zone AHU."
+  is_canonical: true
+  implements:
+  - AHU
+  - DFSS
+  - DXZC
+  - ECONZ
+  - DAIDC
   
 ###################################
 ### Existing Non-standard Types ###
